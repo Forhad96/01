@@ -1,0 +1,87 @@
+@import url(../Font/stylesheet.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Proxima Nova Alt Rg';
+
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  /* !! color */
+  --color-black: #000000;
+  --color-white: #ffffff ;
+  --color-primary: #163235;
+  --color-secondary: #4468e2;
+
+  --text-c1: #1c4961;
+  --text-c2: #151515;
+  --text-c3: #7E7E7E;
+  --text-c4: #0F0F0F;
+  --text-c5:#848484;
+
+
+  /* !! color opacity */
+  --text-c1-100: rgba(28, 73, 97,1);
+  --text-c1-75: rgba(28, 73, 97,0.75);
+
+
+  /* font size */
+  --h1: 50px;
+  --h2: 40px;
+  --h3: 38px;
+  --h4: 31px;
+  --h5: 28px;
+  --h6: 26px;
+
+  --fs-text-1: 22px;
+  --fs-text-2: 20px;
+  --fs-text-3: 16px;
+  --fs-text-4: 12px;
+  --fs-text-5: 10px;
+
+
+
+
+  /* font weight */
+  --regular: 400;
+  --semibold: 600;
+  --bold: 800;
+
+
+  /* line height */
+  --l1: 67px;
+  --l2: 33px;
+}
+
+/**
+* ! common style 
+**/
+.container-fluid {
+  width: 90%;
+}
+.common-title {
+  font-size: var(--h1);
+  line-height: var(--l1);
+  font-weight: var(--bold);
+  color: #ffffff;
+}
+.common-text{
+  font-size: var(--fs-text-1);
+  font-weight: var(--regular);
+  color: var(--color-white);
+}
+
+.common-subtitle{
+  font-size: var(--fs-text-1);
+  font-weight: var(--semibold);
+  color: var(--text-c2);
+}
